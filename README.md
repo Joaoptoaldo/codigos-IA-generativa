@@ -12,7 +12,7 @@ from openai import OpenAI
 
 client = OpenAI(api_key="SUA_CHAVE_OPENAI_AQUI")
 
-prompt = "Escreva uma pequena história sobre um gato viajante."
+prompt = "Escreva uma pequena história sobre qualquer coisa"
 
 response = client.chat.completions.create(
     model="gpt-5",
